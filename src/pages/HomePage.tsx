@@ -1,7 +1,7 @@
 import { Button } from "antd";
 import { Link } from "react-router-dom";
 
-export const HomePage = () => {
+export function HomePage() {
   return (
     <div className="bg-white shadow-lg rounded-lg max-w-md w-full p-8 text-center">
       <h1 className="text-4xl font-semibold mb-4 text-gray-900">
@@ -17,4 +17,4 @@ export const HomePage = () => {
       </Link>
     </div>
   );
-};
+}

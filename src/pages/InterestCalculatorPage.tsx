@@ -1,4 +1,4 @@
-export default function InterestCalculatorPage() {
+export function InterestCalculatorPage() {
   return (
     <div className="max-w-3xl mx-auto p-6 text-gray-800 space-y-6">
       <h1 className="text-2xl font-bold mb-4">P01/UI/interest-calculator</h1>
